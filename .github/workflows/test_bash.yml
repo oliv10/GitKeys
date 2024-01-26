@@ -16,7 +16,7 @@ jobs:
 
     - name: Test Bash script
       run: |
-        chmod +x script_name.sh
+        chmod +x keys.sh
         ./keys.sh -u oliv10
         exit_code=$?
 
