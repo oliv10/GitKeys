@@ -5,6 +5,16 @@ GitKeys is a collection of simple scripts written in multiple languages that can
 
 Each script is designed to need no dependecies other than the base language it is written.
 
+## Download One Liners
+```
+curl -O -sSL https://raw.githubusercontent.com/oliv10/GitKeys/main/keys.{lang}
+```
+OR
+```
+wget https://raw.githubusercontent.com/oliv10/GitKeys/main/keys.{lang}
+```
+and then run your script!
+
 ## Scripts Testing Status
 
 [![Bash Script](https://github.com/oliv10/GitKeys/actions/workflows/test_bash.yml/badge.svg)](https://github.com/oliv10/GitKeys/actions/workflows/test_bash.yml)
